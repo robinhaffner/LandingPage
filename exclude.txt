@@ -1,0 +1,6 @@
+.git
+__MACOSX
+.DS_Store
+upload.sh
+Archive.zip
+exclude.txt

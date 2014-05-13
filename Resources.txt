@@ -1,0 +1,16 @@
+Support references for deferred.promise() model and "use strict"
+
+
+deferred.promise()
+http://www.danieldemmel.me/blog/2013/03/22/an-introduction-to-jquery-deferred-slash-promise/
+
+http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt2-practical-use
+
+
+
+Use strict
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+
+Topcoat
+https://github.com/topcoat/topcoat/wiki/Coding-Guidelines
+

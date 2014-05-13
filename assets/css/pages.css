@@ -1,0 +1,312 @@
+/* ==========================================================================
+   		Override Styles
+   ========================================================================== */
+.ui-mobile, .ui-mobile body { height: auto; min-width: 320px; }
+body, input, select, textarea, button, .ui-btn { font-size: 0.9em; }
+.ui-mobile, .ui-mobile .ui-body-c { color: rgb(51,51,51); }
+.ui-mobile, .ui-mobile .ui-body-c .ui-content { position: relative; background-color: rgb(255,255,255); color: rgb(51,51,51) }
+.ui-mobile { margin: 0; }
+.ui-mobile body .app-page { font-family: "HelveticaNeueLTStdRoman","Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+div.app-page.ui-page { /*padding-top: 25px;*/ }
+
+div.app-page .ui-link.ui-btn:link,
+div.app-page .ui-link.ui-btn:hover,
+div.app-page .ui-link.ui-btn:active,
+div.app-page .ui-link.ui-btn:visited,
+div.app-page .ui-link.ui-btn:focus { 
+	box-shadow: none; 
+	background: none; 
+	border: 0; 
+	text-shadow:none; 
+	font-weight: 400; 
+	border-radius:none; 
+}
+
+div.app-page .nopadding { padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 200; margin-top: 0; }
+a { text-decoration: none; word-wrap: break-word; }
+
+.ui-content h1 { font-size: 20px; text-transform: none; }
+.progressbar { background: none; border-radius: 20px; height: 10px; border: 1px solid rgb(119,119,119); }
+.progressbar .ui-widget-header { 
+	background: none repeat-x scroll 50% 50% rgb(198,32,38); 
+	border: 1px solid rgb(198,32,38); 
+}
+
+.ui-menu.ui-bullets li {
+	padding-left: 10px;
+	background: transparent url(../img/icon-bullet.jpg) 0 6px no-repeat;
+	margin-bottom: 8px; 
+}
+
+.enlarge-popup .ui-link > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.center-block { float: none; margin-right: auto; margin-left: auto; display: block; }
+
+.ui-page {
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -msie-backface-visibility: hidden;
+}
+
+/* ==========================================================================
+   		Custom Styles: Headder
+   ========================================================================== */
+
+#hdr, #hdr .ui-grid-c .ui-bar { background-color: rgb(102,102,102); color: rgb(255,255,255); border: 0; }
+#hdr .ui-grid-c .ui-bar.ui-bar-a { 
+	/*line-height: 40px;*/ 
+	padding: 0 1em; 
+	color: rgb(255,255,255);
+	border-top: 1px solid rgb(198,198,198);
+	border-left: 1px solid rgb(119,119,119);
+	font-size: 12px;
+	text-align: center;
+}
+.page-ctn {
+    text-align: right;
+    font-weight: 200;
+    margin: 3px 0;
+}
+.ui-bar.ui-bar-a.next-btn {
+    text-align: right;
+}
+
+#hdr .navicons {
+	height: 22px;
+    background: url(../img/icons-nav.png) no-repeat top left;
+	text-indent: -9999px;
+    white-space: nowrap !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#hdr .navicons.icon-back { background-position: 0 0; width: 13px; } 
+#hdr .navicons.icon-next { background-position: 0 -32px; width: 13px; display: inline-block; margin-left: 14px; } 
+#hdr .navicons.icon-sound.on { background-position: 0 -64px; width: 23px; } 
+
+#hdr .btn-default.next-control {
+	background: none;
+	border: 0;
+	text-shadow: none;
+	color: rgb(255,255,255);
+	font-size: 1.33rem;
+	padding: 0;
+	font-weight: 200;
+	margin: 0;
+	line-height: 22px;
+}
+
+#hdr .ui-grid-c > .ui-block-a, 
+#hdr .ui-grid-c > .ui-block-b { width: 15%; }
+#hdr .ui-grid-c > .ui-block-c { width: 40%; }
+#hdr .ui-grid-c > .ui-block-d { width: 30%; }
+
+#hdr .ui-grid-solo .ui-bar.ui-bar-a { background-color: rgb(102,102,102); border: 0; }
+
+.headline {
+	background-color: rgb(230,234,233);
+	padding: 7px 10px;
+	font-size: 14px;
+}
+.headline p { margin: 0; min-width: 250px; }
+
+div.app-page .content-wrapper { padding: 1em; }
+
+.content-wrapper .listview li {
+	margin: 0 0 17px 0; 
+	border: 1px solid rgb(204,204,204); 
+	border-radius: .6em; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: normal; 
+	color: rgb(51,51,51); 
+	font-size: 1.125em;
+	background-image: none;
+	background-color: rgb(250,250,250);
+	text-shadow: none;
+	text-align: center;
+
+	display: block;
+    padding: 0.7em 2em;
+    overflow: visible;
+    position: relative;
+    text-transform: none;
+}
+.content-wrapper .listview > li p { margin: 0;  white-space: normal; font-size: 1em; font-weight: 200; }
+.content-wrapper .listview { 
+	box-shadow: none;
+	margin: 1em 0;
+	padding: 0;
+	border-radius: 0.6em;
+	cursor: pointer;
+}
+
+.selection-list.ui-listview > li.selected {
+	background-color: rgb(102,102,102);
+	color: rgb(255,255,255);
+}
+.selection-list.ui-listview > li.selectedresult {
+	border: 1px solid rgb(1,178,1);
+}
+.selection-list.ui-listview.qlist > li p {
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+    z-index: 999;
+}
+.selection-list.ui-listview > li.selectedresult p {
+	font-weight: 600;
+}
+.selection-list.ui-listview > li .color-fill {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top-left-radius: 0.6em;
+	border-bottom-left-radius: 0.6em;
+}
+.selection-list.ui-listview > li .percent-fill {
+	border-top-right-radius: 0.6em;
+	border-bottom-right-radius: 0.6em;
+}
+
+.selection-list.ui-listview > li .color-fill.color-animate {
+    background-color: rgb(170,170,170);
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.selection-list.ui-listview > li.selectedresult .color-fill.color-animate {
+    background-color: rgb(158,218,137);
+}
+
+.selection-list.ui-listview > li .choice-percent {
+	width: 50px;
+	height: 22px;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;  bottom: 0;
+	text-align: left;
+	font-weight: 600;
+	display: none; 
+}
+.selection-list.ui-listview > li.selectedresult .choice-percent {
+    color: rgb(0,102,26);
+}
+.selection-list.ui-listview > li .choice-percent {
+    color: rgb(51,51,51);
+}
+
+.instructions, .instructionslist { position: relative; min-height: 375px; }
+.instructionslist li.instructionposition {
+	position: absolute;
+	width: 30%;
+	text-align: center;
+	text-transform: capitalize;
+}
+.instructionslist li.topleft { top: -48px; left: 0; }
+.instructionslist li.topright { top: -48px; right: 0; }
+.instructionslist li.imginstructions img { display: block; margin: 0 auto; }
+.instructionslist li.bottomleft { bottom: 0; left: 0; }
+.instructionslist li.bottomright { bottom: 0; right: 0; }
+
+.instructionslist li.instructionposition .arrow {
+	display: block;
+    background: url(../img/icon-arrows.png) no-repeat top left;
+}
+
+.instructionslist li.instructionposition .arrow.icon-arrow-down { 
+	background-position: 0 0; 
+	width: 9px; 
+	height: 50px;
+	margin: 12px auto 0 auto; 
+} 
+.instructionslist li.instructionposition .arrow.icon-arrow-up { 
+	background-position: 0 -60px; 
+	width: 9px; 
+	height: 85px; 
+	margin: 0 auto 8px auto; 
+} 
+
+.case-study h3, .case-study h4 { font-weight: 600; }
+.case-study h4 { margin-bottom: 0; }
+.case-study p { margin-top: 0; }
+.case-study .ui-grid-a > .ui-block-a { width: 70px; }
+.case-study .ui-grid-a > .ui-block-b { width: 70%; }
+
+.overview .ui-grid-a > .ui-block-b { text-align: center; }
+
+.ui-content h1.qhdr { margin-bottom: 42px; }
+.icon-question {
+	background: url(../img/icon-question.png) no-repeat top left;
+	padding-left: 26px;
+}
+.icon-question.correct {
+	color: rgb(0,178,0);
+	background-position: 0 -27px; width: 22px;
+}
+.icon-question.incorrect {
+	color: rgb(198,32,38);
+	background-position: 0 6px; width: 22px;
+}
+
+/* ==========================================================================
+   		Custom Styles: Footer
+   ========================================================================== */
+
+#ftr, #ftr .ui-grid-c .ui-bar { 
+	background-color: rgb(102,6,9); 
+	border: 0;
+	text-align: center;
+	text-shadow: none;
+	font-weight: 400; 
+}
+#ftr { border-top: 1px solid rgb(198,32,38); }
+#ftr .ui-grid-c .ui-bar.ui-bar-a { 
+	line-height: 45px; 
+	padding: 0 .5em; 
+	color: rgb(212,186,187);
+	border-left: 1px solid rgb(198,32,38);
+	font-size: 0.7em;
+}
+#ftr .ui-link:hover, #ftr .ui-link:link,
+#ftr .ui-link:active, #ftr .ui-link:visited { color: rgb(212,186,187); padding: 0; margin: 0; text-transform: capitalize; }
+
+#ftr .ui-grid-c .ui-bar.ui-bar-a.large { font-size: 1em; }
+#ftr .ui-grid-c .ui-block-b { width: 18%; }
+#ftr .ui-grid-c .ui-block-d { width: 38%; }
+#ftr .ui-grid-c .ui-block-c { width: 18%; }
+
+#ftr .ui-grid-c .ui-bar.ui-bar-a button,
+#ftr .ui-grid-c .ui-bar.ui-bar-a a { 
+	font-size: 0.65rem;
+    font-weight: 400;
+    background: none;
+    border: 0;
+    color: rgb(212,186,187);
+    cursor: pointer;
+    line-height: inherit;
+    padding: 0; 
+}
+
+/* ==========================================================================
+   		Media
+   ========================================================================== */
+
+@media (min-width: 320px) and (max-width: 1024px) {
+}
+@media (max-width: 480px) {
+	#ftr .ui-grid-c .ui-bar.ui-bar-a { 
+		font-size: 0.65em;
+	}
+	#ftr .ui-grid-c .ui-bar.ui-bar-a.large { font-size: 1em; padding: 0; }
+}
